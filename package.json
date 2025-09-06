@@ -1,34 +1,19 @@
 {
-  "name": "ton-wallet-backend",
+  "name": "mnemonic-api",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
-    "@ton/crypto": "^3.3.0",
+    "@ton/crypto": "^1.0.0",
     "bcryptjs": "^2.4.3",
-    "bip39": "^3.1.0",
-    "cloudinary": "^1.41.3",
+    "cloudinary": "^1.33.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2",
-    "express-rate-limit": "^6.8.1",
-    "helmet": "^7.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.8.7",
-    "multer": "^2.0.2",
-    "multer-storage-cloudinary": "^4.0.0",
-    "serverless-http": "^4.0.0",
-    "ton": "",
-    "ton-crypto": "^3.2.0",
-    "uuid": "^9.0.0",
-    "validator": "^13.11.0"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "multer": "^1.4.5-lts.1",
+    "serverless-http": "^3.0.0"
   }
 }
