@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "@ton/crypto": "^1.0.0",
+    "@ton/crypto": "^0.24.0",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.33.0",
     "cors": "^2.8.5",
