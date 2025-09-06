@@ -1,9 +1,11 @@
 {
   "name": "mnemonic-api",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "src/server.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "@ton/crypto": "^1.0.0",
